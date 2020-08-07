@@ -137,7 +137,7 @@ influxdb:
   ##
   extraEnvVars:
   - name: INFLUXDB_DATA_MAX_VALUES_PER_TAG
-    value: 0
+    value: "0"
 
   ## Number of InfluxDB replicas to deploy
   ##
